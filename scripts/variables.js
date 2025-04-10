@@ -103,3 +103,18 @@ console.log(vendedor.vender)
 console.log(vendedor.vender())
 
 console.log(vendedor.obtenerNombreCompleto())
+
+
+let venta = vendedor.vender()
+console.log(venta)
+console.log(typeof venta)
+
+
+vendedor.Apellido = 'Bertolin'
+console.log(vendedor)
+
+vendedor.edad = 34
+
+console.log(vendedor)
+
+
