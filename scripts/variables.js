@@ -73,7 +73,7 @@ function imprimirlet(){
 imprimirlet()
 
 
- //OBJETOS
+ //OBJETOS CON LET
 
 let vendedor = {
 
@@ -116,5 +116,24 @@ console.log(vendedor)
 vendedor.edad = 34
 
 console.log(vendedor)
+
+
+//OBJETOS CON CONST
+
+const vendedor2 = {
+
+    Nombre: 'Andres',
+    Apellido: 'Dario',
+    Empresa: 'Romulus SA',
+    Habilidadesblandas: ['comunicacion', 'trabajo en equipo', 'Resolucion de conflictos '],
+    vender: function (){
+        return 'Romualdo vendio'
+    },
+    obtenerNombreCompleto: function (){
+        return `El Nombre completo de este vendedor es ${this.Nombre}  ${this.Apellido}`
+    }
+}
+
+console.log(vendedor2)
 
 
