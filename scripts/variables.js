@@ -137,3 +137,6 @@ const vendedor2 = {
 console.log(vendedor2)
 
 
+vendedor2.edad = 35
+
+console.log(vendedor2)
